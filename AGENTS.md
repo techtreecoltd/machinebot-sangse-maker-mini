@@ -19,7 +19,7 @@
 | 스킬 추가·이름 변경 | 해당 `SKILL.md`, 허브의 입구 표, `always-on-block.md`, `validation/trigger-cases.json`, README의 연결 표 |
 | 스킬 description | 수정 후 `scripts/trigger_eval.py`를 다시 돌려 결과를 갱신 |
 | 결과물 기본값 | `references/branches.md`, README 요청 표 |
-| 강의 링크 | `README.md`, 플러그인 `README.md`, `references/upgrade.md`의 준비 중 안내를 실제 주소로 교체 |
+| 강의 링크 | `README.md`, 플러그인 `README.md`, `references/upgrade.md`의 격차 강의 주소를 함께 갱신 |
 
 `.codex-plugin/plugin.json`은 직접 고치지 않는다. `scripts/build.py`가 `plugin.json`에서 만든다.
 
@@ -37,7 +37,7 @@ python scripts/build.py
 3. `dist/`에 ZIP과 SHA-256을 만든다.
 4. 압축 해제본을 다시 검사한다.
 
-깨진 강의 링크 자리표시가 남아 있으면 경고하고, `--release`에서는 실패한다. 현재는 주소가 지정되지 않아 링크 없는 준비 중 안내로 배포한다. 버전을 올릴 때는 `dist/`에 새 파일을 만든다. 공개 저장소에 정식판 이력·백업·배포 ZIP을 추가하지 않는다.
+깨진 강의 링크 자리표시가 남아 있으면 경고하고, `--release`에서는 실패한다. 강의 안내는 격차의 김머신 「이커머스의 정석」 상세 페이지로 연결한다. 버전을 올릴 때는 `dist/`에 새 파일을 만든다. 공개 저장소에 정식판 이력·백업·배포 ZIP을 추가하지 않는다.
 
 ## 호출 구조
 

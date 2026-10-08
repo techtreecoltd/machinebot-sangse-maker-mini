@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "machinebot-sangse-maker-mini",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "제품 사진으로 썸네일, 누끼, 연출컷, 기능 설명 컷, 상세페이지를 만드는 머신봇 상세 메이커의 공개 버전입니다.",
   "author": {
     "name": "김머신",
