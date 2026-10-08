@@ -1,7 +1,7 @@
 interface:
-  display_name: "머신봇 mini 설정"
-  short_description: "상시 연결 켜기·끄기"
+  display_name: "머신봇 mini 시작하기"
+  short_description: "제품 사진 준비부터 첫 요청·수정 방법과 선택 설정까지 안내"
   brand_color: "#111827"
-  default_prompt: "$machinebot-mini-setup 상시 연결 켜 줘."
+  default_prompt: "$machinebot-mini-setup 처음인데 어떻게 쓰는지 쉽게 알려 줘."
 policy:
   allow_implicit_invocation: true

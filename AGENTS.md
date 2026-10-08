@@ -16,6 +16,7 @@
 |---|---|
 | 플러그인 정보·버전 | `plugins/.../plugin.json`, `CHANGELOG.md` |
 | 작업 흐름 | `SKILL.md`, 관련 `references/`, README의 "설치 후 1분 점검" 표 |
+| 첫 사용 안내 | 허브 `references/get-started.md`, 설정 스킬, 두 README |
 | 스킬 추가·이름 변경 | 해당 `SKILL.md`, 허브의 입구 표, `always-on-block.md`, `validation/trigger-cases.json`, README의 연결 표 |
 | 스킬 description | 수정 후 `scripts/trigger_eval.py`를 다시 돌려 결과를 갱신 |
 | 결과물 기본값 | `references/branches.md`, README 요청 표 |
@@ -42,5 +43,5 @@ python scripts/build.py
 ## 호출 구조
 
 - 요청 종류마다 전용 입구 스킬이 있다. 공통 절차와 기본값은 허브(`machinebot-sangse-maker-mini`)의 `references/` 한 곳에 둔다.
-- 상시 연결은 `machinebot-mini-setup`이 사용자 동의 후 전역 AGENTS.md에 `<!-- machinebot-mini:start -->` 블록을 넣는 방식이다.
+- `machinebot-mini-setup`은 설정 실행 시 사용 가이드를 먼저 제공한다. 상시 연결은 별도 동의 후 전역 AGENTS.md에 `<!-- machinebot-mini:start -->` 블록을 넣는 선택 사항이다.
 - `python scripts/trigger_eval.py`로 실제 호출률을 측정한다. 이 PC처럼 문서 폴더에서 Python 쓰기가 막히면 저장소를 임시 폴더로 복사해서 실행한다.

@@ -1,6 +1,6 @@
 {
   "name": "machinebot-sangse-maker-mini",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "제품 사진으로 썸네일, 누끼, 연출컷, 기능 설명 컷, 상세페이지를 만드는 머신봇 상세 메이커의 공개 버전입니다.",
   "author": {
     "name": "김머신",
@@ -28,6 +28,7 @@
     ],
     "websiteURL": "https://github.com/techtreecoltd/machinebot-sangse-maker-mini",
     "defaultPrompt": [
+      "처음인데 어떻게 쓰는지 쉽게 알려 줘.",
       "이 제품 사진으로 메인 썸네일 한 장 만들어 줘.",
       "이 제품으로 6장짜리 상세페이지를 만들어 줘.",
       "흰 배경 누끼컷 한 장 만들어 줘.",
