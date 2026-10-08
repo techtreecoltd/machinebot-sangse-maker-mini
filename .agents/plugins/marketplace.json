@@ -1,0 +1,20 @@
+{
+  "name": "machinebot-public",
+  "interface": {
+    "displayName": "머신봇"
+  },
+  "plugins": [
+    {
+      "name": "machinebot-sangse-maker-mini",
+      "source": {
+        "source": "local",
+        "path": "./plugins/machinebot-sangse-maker-mini"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

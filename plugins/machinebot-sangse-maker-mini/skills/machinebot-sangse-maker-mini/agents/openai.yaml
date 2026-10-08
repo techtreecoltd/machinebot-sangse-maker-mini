@@ -1,0 +1,7 @@
+interface:
+  display_name: "머신봇 상세 메이커 mini"
+  short_description: "제품 사진으로 썸네일부터 상세페이지까지"
+  brand_color: "#111827"
+  default_prompt: "$machinebot-sangse-maker-mini 이 제품 사진으로 메인 썸네일 한 장 만들어 줘."
+policy:
+  allow_implicit_invocation: true

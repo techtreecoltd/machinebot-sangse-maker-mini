@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "machinebot-sangse-maker-mini",
+  "version": "1.0.0",
+  "description": "제품 사진으로 썸네일, 누끼, 연출컷, 기능 설명 컷, 상세페이지를 만드는 머신봇 상세 메이커의 공개 버전입니다.",
+  "author": {
+    "name": "김머신",
+    "url": "https://github.com/techtreecoltd"
+  },
+  "homepage": "https://github.com/techtreecoltd/machinebot-sangse-maker-mini",
+  "repository": "https://github.com/techtreecoltd/machinebot-sangse-maker-mini",
+  "keywords": [
+    "ecommerce",
+    "product-image",
+    "detail-page",
+    "thumbnail",
+    "korean-commerce"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/machinebot-mini-setup/SKILL.md",
+      "interface": {
+        "displayName": "머신봇 상세 메이커 mini",
+        "shortDescription": "제품 사진으로 썸네일부터 상세페이지까지",
+        "longDescription": "제품 사진을 올리면 쿠팡·스마트스토어용 메인·서브 썸네일, 흰 배경 누끼컷, 연출·실사용컷, 기능 설명 컷, 6장 상세페이지와 FAQ, 외국어 상세페이지의 한국어 재제작까지 만들어 줍니다. 구매 이유 설계와 장면 기획까지 하는 정식 버전 머신봇 상세 메이커는 강의 수강생에게 제공됩니다.",
+        "developerName": "김머신",
+        "category": "Productivity",
+        "capabilities": [
+          "Image generation",
+          "Image editing"
+        ],
+        "websiteURL": "https://github.com/techtreecoltd/machinebot-sangse-maker-mini",
+        "defaultPrompt": [
+          "이 제품 사진으로 메인 썸네일 한 장 만들어 줘.",
+          "이 제품으로 6장짜리 상세페이지를 만들어 줘.",
+          "흰 배경 누끼컷 한 장 만들어 줘.",
+          "이 중국어 상세페이지를 한국어 상세페이지로 다시 만들어 줘.",
+          "상세페이지 요청에 항상 연결되도록 상시 연결 켜 줘."
+        ],
+        "brandColor": "#111827",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

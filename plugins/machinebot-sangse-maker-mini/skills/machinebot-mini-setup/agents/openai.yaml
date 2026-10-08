@@ -1,0 +1,7 @@
+interface:
+  display_name: "머신봇 mini 설정"
+  short_description: "상시 연결 켜기·끄기"
+  brand_color: "#111827"
+  default_prompt: "$machinebot-mini-setup 상시 연결 켜 줘."
+policy:
+  allow_implicit_invocation: true

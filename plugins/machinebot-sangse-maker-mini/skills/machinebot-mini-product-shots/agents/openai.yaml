@@ -1,0 +1,7 @@
+interface:
+  display_name: "머신봇 제품컷 mini"
+  short_description: "누끼, 연출·실사용컷, 기능 설명 컷"
+  brand_color: "#111827"
+  default_prompt: "$machinebot-mini-product-shots 이 제품 사진으로 흰 배경 누끼컷 만들어 줘."
+policy:
+  allow_implicit_invocation: true
