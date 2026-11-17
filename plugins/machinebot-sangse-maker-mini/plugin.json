@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "machinebot-sangse-maker-mini",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "제품 사진으로 썸네일, 누끼, 연출컷, 기능 설명 컷, 상세페이지를 만드는 머신봇 상세 메이커의 공개 버전입니다.",
   "author": {
     "name": "김머신",
@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "머신봇 상세 메이커 mini",
         "shortDescription": "제품 사진으로 썸네일부터 상세페이지까지",
-        "longDescription": "제품 사진을 올리면 쿠팡·스마트스토어용 메인·서브 썸네일, 흰 배경 누끼컷, 연출·실사용컷, 기능 설명 컷, 6장 상세페이지와 FAQ, 외국어 상세페이지의 한국어 재제작까지 만들어 줍니다. 구매 이유 설계와 장면 기획까지 하는 정식 버전 머신봇 상세 메이커는 강의 수강생에게 제공됩니다.",
+        "longDescription": "제품 사진을 올리면 쿠팡·스마트스토어용 메인·서브 썸네일, 흰 배경 누끼컷, 연출·실사용컷, 기능 설명 컷, 6장 상세페이지와 FAQ, 외국어 상세페이지의 한국어 재제작까지 만들어 줍니다. 구매 이유 설계와 장면 기획까지 하는 정식 버전 머신봇 상세 메이커는 머신 이커머스 코드 Standard(이커머스의 정석 수강생용)·Pro(이커머스의 정석 BLACK 수강생용) 에디션에 들어 있습니다.",
         "developerName": "김머신",
         "category": "Productivity",
         "capabilities": [
